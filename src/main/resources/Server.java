@@ -50,6 +50,9 @@ public class Server extends HttpServlet {
 			
 			//out.println(request.getParameter("data"));
 		}
+		else {
+			out.println("Error");
+		}
 		
 	}
 
